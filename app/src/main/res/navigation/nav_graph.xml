@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.zadanie10balyka.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second" >
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>
